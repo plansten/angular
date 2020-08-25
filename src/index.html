@@ -1,13 +1,53 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
+
 <head>
+
+
+  <meta name="mobile-web-app-capable" content="yes">
+
+
+
   <meta charset="utf-8">
-  <title>MyApp</title>
-  <base href="/">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <title>Bootstrap 3 - Navbar</title>
+  <!-- Bootstrap -->
 </head>
 <body>
-  <app-root></app-root>
+  <div class="container">
+    
+    <div class="auth">
+      <h1>PROTECT<b>IM</b></h1>
+      <p class="opisanie">Система СМС-авторизации метод борьбы <br>с попытками получения несанкционированного <br>доступа к различным информационным системам.</p>
+      
+      <div class="stroka">
+        <p class="vhod">Вход:</p>
+        <a class="reg" href="">Регистрация</a>
+      </div>
+      <form action="#" method="GET">  
+      <input class="inp" type="text" maxlength="35" size="35" name="login" placeholder="Логин">
+      <input class="inp pwd" type="password" maxlength="35" size="35" name="password" placeholder="Пароль">
+      <div><a class="pwdsend" href="">Выслать пароль</a></div>
+
+
+
+      <div class="form-group">
+        <div class="main-checkbox">
+        <input type="checkbox" value="none" id="checkbox1" name="check"/>
+        <label for="checkbox1"></label>
+        </div>
+        <span class="text">чужой компьютер</span>
+        <button type="submit" class="btn btn-default">ВОЙТИ</button>
+        
+      </div>
+    </form> 
+    </div>
+  
+  </div>
+
+
+
 </body>
 </html>
